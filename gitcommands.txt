@@ -21,7 +21,7 @@ git log -> display commit history and commitHashes (
 - cmd "type" command opens the file contents
 
 
-# TO PUSH A PROJECT INTO A EMPTY GITHUB REPO
+# TO PUSH A PROJECT INTO A EMPTY GITHUB REPO (Make sure git is initialized in your local project file)
 - > git remote add origin [repo link]
 Make sure its connected to the repo using 
 - > git remote -v
@@ -31,6 +31,7 @@ Make sure its connected to the repo using
 - To view all branches > git branch
 - To switch between branches > git checkout YourBranchName
 - To create new branch > git checkout -b YourBranchName
+- To delete branch git branch --delete YourBranchName
 - To delete branch after merging > git branch -d YourBranchName
 - To pull changes into your clone > git pull origin main ->this will update to your clone to whatever is in the main branch
 
